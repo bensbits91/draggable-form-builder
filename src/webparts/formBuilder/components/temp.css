@@ -1,0 +1,32 @@
+#workbenchPageContent,
+.CanvasZone {
+    max-width: unset;
+    border: none;
+}
+
+/* strectch content area to touch sides */
+#workbenchPageContent {
+    left: 0;
+    right: 0;
+    /* top: 91px; */
+}
+#workbenchPageContent > div > div > div,
+.CanvasZone,
+.CanvasSection-col {
+    overflow: hidden;
+    padding: 0;
+}
+.CanvasSection--read .ControlZone {
+    margin: 0;
+}
+.mainContent > .commandBarWrapper {
+    display: none;
+}
+
+#spLeftNav {
+    display: none;
+}
+
+.appBody {
+    padding: 50px;
+}
